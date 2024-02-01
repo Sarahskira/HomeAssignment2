@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="navbar.js" defer></script>
+    <title>My Portofoilo</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="sidebar">
+        <li onclick="hideSidebar()">
+          <a href="#"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 -960 960 960"
+              width="24"
+            >
+              <path
+                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+              /></svg
+          ></a>
+        </li>
+        <li><a href="Homepage.html" class="mark">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Skills.html">Skills</a></li>
+        <li><a href="Projects.html">Projects</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+      <ul class id="hideonmobile">
+        <li><a href="Homepage.html" class="mark">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Skills.html">Skills</a></li>
+        <li><a href="Projects.html">Projects</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+      <ul>
+        <li onclick="showSidebar()" class="menu">
+          <a href="#"
+            ><svg
+              class="sidebar-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              height="26"
+              viewBox="0 -960 960 960"
+              width="26"
+            >
+              <path
+                d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+              />
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <section id="Home">
+      <div class="presntation">
+        <h1 class="header">
+          I AM <br />
+          SARAH SKIRA
+        </h1>
+        <button class="btn">Hire Me</button>
+      </div>
+    </section>
+  </body>
+</html>

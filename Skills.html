@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Skills</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="navbar.js" defer></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="sidebar">
+        <li onclick="hideSidebar()">
+          <a href="#"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 -960 960 960"
+              width="24"
+            >
+              <path
+                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+              /></svg
+          ></a>
+        </li>
+        <li><a href="Homepage.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Skills.html" class="mark">Skills</a></li>
+        <li><a href="Projects.html">Projects</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+      <ul class id="hideonmobile">
+        <li><a href="Homepage.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Skills.html" class="mark">Skills</a></li>
+        <li><a href="Projects.html">Projects</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+      <ul>
+        <li onclick="showSidebar()" class="menu">
+          <a href="#"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="26"
+              viewBox="0 -960 960 960"
+              width="26"
+            >
+              <path
+                d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+              />
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <section id="CV">
+      <h1 class="header">MY SKILLS</h1>
+      <div class="columns">
+        <div class="box">
+          <h2>Bachelors In Industrial Engineering</h2>
+          <p>
+            During my studies in Industrial Engineering and Management, I
+            developed significant skills in Database Management, including
+            Entity-Relationship Diagram (ERD) design, SQL querying and
+            optimization, and the development and construction of databases.
+            Additionally, I have honed my abilities in Excel, mastering primary
+            functions, database management, sensitivity analysis, and macro
+            command utilization. My education also encompassed programming,
+            where I gained proficiency in C++ and C#.
+          </p>
+        </div>
+        <div class="box">
+          <h2>Work Experience</h2>
+          <p>
+            In my role as a Service and Sales Manager at Real Estate Code
+            company, I excelled in event organization, sales target achievement,
+            and team management. As a Community Associate at Regus Business
+            Centers, I managed reception services and administrative tasks with
+            a focus on efficient scheduling. Earlier, as a Sales Representative
+            at Memo Global, I operated in an English-speaking environment,
+            meeting sales goals and upholding high standards of professional
+            excellence.
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
